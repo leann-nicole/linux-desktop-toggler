@@ -1,5 +1,4 @@
-
-#!bin/bash
+#!/bin/bash
 
 if [[ $(wmctrl -m | grep ON) ]]; then 
 	wmctrl -k off
